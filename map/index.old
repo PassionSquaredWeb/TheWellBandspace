@@ -1,0 +1,74 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN">
+<html>
+<head>
+<script language="JavaScript" type="text/JavaScript">
+<!-- Hide Javascript from Web browsers
+function launchApp () {
+	newWindow = window.open("http://dar.gotdns.com/flashcom/applications/vidphone/default.html","_blank","HEIGHT=400,WIDTH=600,left=0,top=0,resizable=true");
+	newWindow.focus();
+}
+<!-- -->
+</script>
+<title>Map</title>
+<style type="text/css">
+body {
+	background-color: #000000;
+}
+body,td,th {
+	color: #000;
+}
+.AddressLarge {
+	font-size: large;
+}
+.AddressLarge font {
+	font-size: x-large;
+}
+</style>
+<body bgcolor="#000000" background="images/starsglow8.gif" link="#00FFFF" vlink="#FF9933" alink="#FF0000" leftmargin="0" topmargin="0" marginwidth="0" marginheight="0">
+<meta http-equiv="Content-Type" content="text/html; charset=iso-8859-1">
+<table width="56%" border="0" cellpadding="0" cellspacing="0">
+  <tr>
+    <td width="16%" align="left"><div align="left"><a href="http://www.bravenet.com" target="_blank"><img src="../images/member88x31e.gif" alt="Bravenet Memeber" width="88" height="31" border="0" longdesc="http://www.bravenet.com"></a></div></td>
+    <td width="74%"><div align="center">
+      <p><font color="#00FF00" size="5" face="Verdana, Arial, Helvetica, sans-serif"><strong> Map to<br>
+          <a href="http://www.thewellbandspace.com/">The Well Rehearsal Space</a><br>
+          <span class="AddressLarge"><font color="#FFFF00" size="4" face="Verdana, Arial, Helvetica, sans-serif">7481 Hurd St. Mission, B.C.</font></span><font color="#FFFF00" size="4" face="Verdana, Arial, Helvetica, sans-serif"><br>
+          <span class="AddressLarge">Exit 92 off Hwy 1 <br>
+Hwy 11 to Mission</span></font></strong></font></p>
+      </div></td>
+    <td width="10%"><div align="right"><img src="../images/CA.gif" width="68" height="50"></div></td>
+  </tr>
+</table>
+<table width="56%" height="438" border="0" align="left" cellpadding="0" cellspacing="0">
+  <tr>
+    <td width="8%" height="219">&nbsp;</td>
+    <td width="92%" align="left" valign="top"><p align="center"><br>
+        <a href="http://maps.google.ca/maps?f=q&hl=en&geocode=&q=7481+Hurd+St.&sll=49.891235,-97.15369&sspn=38.380876,79.277344&ie=UTF8&ll=49.137768,-122.332721&spn=0.009462,0.019355&t=h&z=16&iwloc=addr&om=1" target="_blank"><strong><font face="Verdana, Arial, Helvetica, sans-serif">Google Map (Click Here)</font></strong></a></p>
+      <p align="center"><strong><a href="http://www.mapquest.ca/maps/map.adp?formtype=address&addtohistory=&address=7481%20Hurd%20Street&city=Mission&state=BC&zipcode=V2V&country=CA&geodiff=1" target="_blank"><font face="Verdana, Arial, Helvetica, sans-serif">MapQuest Map (Click Here)  </font></a></strong></p>
+      <p align="center">&nbsp;</p>
+      <p align="center"><strong><font color="#FFFFFF" size="3" face="Verdana, Arial, Helvetica, sans-serif">From Abbotsford</font></strong></p>
+      <table width="92%" border="0" cellspacing="0" cellpadding="0">
+        <tr>
+          <td><div align="center"><font size="3" face="Verdana, Arial, Helvetica, sans-serif"><strong><img src="images/dirAbbotsford.jpg" alt="7481Hurd" width="500" height="525"><br>
+          </strong></font><a href="Music/mp3/Israel Kamakawiwo'ole - Somewhere Over The Rainbow-What A Wonderful World.mp3"></a></div></td>
+        </tr>
+      </table>
+      <p align="center">&nbsp;</p>
+      <div align="center">
+        <p><strong><font color="#FFFFFF" size="3" face="Verdana, Arial, Helvetica, sans-serif"><br>
+        <font size="4">Once In Mission</font></font></strong></p>
+        <p><img src="images/dirMissionNew536x717.jpg" width="536" height="717"><br>
+          <br>
+        </p>
+      </div>
+      <div align="center"><img src="images/TheWellParking.png" width="466" height="354" alt="The Well"></div>
+    </td>
+  </tr>
+  <tr>
+    <td height="219">&nbsp;</td>
+    <td align="center" valign="top"><img src="images/TheWellPhoto800x397.png" alt="TheWellPhoto" width="800" height="397" align="absmiddle"></td>
+  </tr>
+</table>
+<p>&nbsp;</p>
+</body>
+</html>

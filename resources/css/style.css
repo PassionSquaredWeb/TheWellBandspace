@@ -1,0 +1,108 @@
+/* ----------------------------------------------- */
+/* BASIC SETUP */
+/* ----------------------------------------------- */
+
+
+html,
+body {
+  position: relative;
+  background-color: #fff;
+  color: #555;
+  font-family: 'Lato', 'Arial', sans-serif;
+  font-weight: 300;
+  font-size: 20px;
+  text-rendering: optimizeLegibility;
+  overflow-x: hidden;
+}
+
+.clearfix {
+  zoom: 1
+}
+
+.clearfix:after {
+  content: '.';
+  clear: both;
+  display: block;
+  height: 0;
+  visibility: hidden;
+}
+
+/* ----- HEADINGS ----- */
+
+h1,
+h2,
+h3 {
+    font-weight: 300;
+    text-transform: uppercase;
+}
+
+h1 {
+  margin-top: 0;
+  margin-bottom: 20px;
+  color: #000;
+  font-size: 240%;
+  word-spacing: 4px;
+  letter-spacing: 1px;
+}
+
+h2 {
+  font-size: 180%;
+  word-spacing: 2px;
+  text-align: center;
+  margin-bottom: 30px;
+  letter-spacing: 1px;
+}
+
+h3 {
+  font-size: 110%;
+  margin-bottom: 15px;
+}
+
+p {
+  font-size:90%;
+  line-height: 125%;
+}
+
+
+/* ----------------------------------------------- */
+/* HEADER */
+/* ----------------------------------------------- */
+
+.main {
+  margin-top: 83px;
+}
+
+#showcase {
+  position: relative;
+  background: url("../images/TheWell_1140x598.jpg");
+  background-position: center;
+  background-repeat: no-repeat;
+  min-height: 600px;
+  width: 100%;
+  
+}
+
+section:before {
+  height: 83px;
+  content: "";
+  display:block;
+}
+
+#home-icons {
+  margin-top: -40px;
+}
+
+#main-footer {
+  background: #000;
+  color: #fff;
+  font-size: 0.5 rem;
+}
+
+@media (max-width: 768px) {
+  #showcase {
+    min-height: 500px; }
+    #showcase h1 {
+      font-size: 4rem; }
+
+  .mb-resp {
+    margin-bottom: 1rem; } }

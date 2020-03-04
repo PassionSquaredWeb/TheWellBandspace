@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <link rel="icon" href="../favicon.ico" type="image/x-icon" />
+    <link rel="shortcut icon" href="../favicon.ico" type="image/x-icon" />
+    <link rel="icon" type="image/gif" href="../favicon.gif" />
+    <link rel="icon" type="image/png" href="../favicon.png" />
+    <!-- <meta http-equiv=“Pragma” content=”no-cache”>
+    <meta http-equiv=“Expires” content=”-1″>
+    <meta http-equiv=“CACHE-CONTROL” content=”NO-CACHE”> -->
+
+    <script type="text/javascript" src="../includes/head.js"></script>
+    <link rel="stylesheet" href="../resources/css/bootstrap.css" />
+    <link rel="stylesheet" href="style.css" />
+    <title>The Well Band Space</title>
+  </head>
+  <body id="map">
+    <!-- START HERE -->
+    <nav  id="main-nav" class="navbar fixed-top navbar-expand-md navbar-dark bg-dark">
+			<div class="container">
+				<a class="navbar-brand" href="../index.html#home">
+					<img src="../resources/images/AWell_66x50.png" width="66" height="50" alt="The Well Logo">
+					<h3 class="d-inline align-middle ml-2">The Well Band Space</h3>
+				</a>
+				<button class="navbar-toggler" data-toggle="collapse" data-target="#navbarCollapse">
+					<span class="navbar-toggler-icon"></span>
+				</button>
+				<div class="collapse navbar-collapse" id="navbarCollapse">
+					<ul class="navbar-nav ml-auto">
+						<li class="nav-item">
+							<a href="../index.html#map" class="nav-link active">Map</a>
+						</li>
+						<li class="nav-item">
+							<a href="http://pub45.bravenet.com/calendar/show.php?usernum=3840734655" class="nav-link">Bookings</a>
+						</li>
+						<li class="nav-item">
+							<a href="../index.html#details" class="nav-link">Details</a>
+						</li>
+						<li class="nav-item">
+							<a href="../index.html#photos" class="nav-link">Photos</a>
+						</li>
+						<li class="nav-item">
+							<a href="../index.html#contact" class="nav-link">Contact</a>
+						</li>
+					</ul>
+				</div>
+			</div>
+    </nav>
+    
+    <div class="main">
+      <!-- LOCATION & HOURS SECTION -->
+    <section id="location" class="bg-white">
+        <div class="container">
+          <div class="row">
+            <div class="col-md-12 text-center">
+              <div class="card text-center">
+                <div class="card-header bg-primary text-white">
+                  <h3><i class="fas fa-map-marked-alt pr-2"></i> Map / Directions</h3>
+                </div>
+                <h2>7481 HURD ST. MISSION, B.C.</h2>
+                <div class="card-body">                
+                  <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3218.6814561096216!2d-122.33517178412335!3d49.138063388927435!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x548433ed92d14c87%3A0xf98336bde89a7bc3!2s7481%20Hurd%20St%2C%20Mission%2C%20BC%20V2V%203H9!5e1!3m2!1sen!2sca!4v1572210609606!5m2!1sen!2sca" width="600" height="450" frameborder="0" style="border:0;" allowfullscreen=""></iframe>                 
+                </div>
+              </div>            
+            </div>
+          </div>
+        </div>
+      </section>
+      <!-- PHOTOS -->
+      <section id="photos" class="bg-light">
+        <div class="container">          
+          <div class="row">
+            <div class="col-md-4">
+              <a href="images/TheWellPhoto800x397.png" data-toggle="lightbox" data-gallery="img-gallery" data-height="500"
+                data-width="500">
+                <img src="images/TheWellPhoto800x397.png" alt="" class="img-fluid">
+              </a>
+            </div>
+            <div class="col-md-4">
+              <a href="images/TheWellParking.png" data-toggle="lightbox" data-gallery="img-gallery" data-height="500"
+                data-width="500">
+                <img src="images/TheWellParking.png" alt="" class="img-fluid">
+              </a>
+            </div>
+            <div class="col-md-4">
+              <a href="images/dirMissionNew536x717.jpg" data-toggle="lightbox" data-gallery="img-gallery" data-height="500"
+                data-width="500">
+                <img src="images/dirMissionNew536x717.jpg" alt="" class="img-fluid">
+              </a>
+            </div>
+          </div>
+          <div class="row mb-2">
+            <div class="col-md-4">
+              <a href="images/dirAbbotsford.jpg" data-toggle="lightbox" data-gallery="img-gallery" data-height="500"
+                data-width="500">
+                <img src="images/dirAbbotsford.jpg" alt="" class="img-fluid">
+              </a>
+            </div>
+            <div class="col-md-4">
+              <a href="images/dirLangley.jpg" data-toggle="lightbox" data-gallery="img-gallery" data-height="500"
+                data-width="500">
+                <img src="images/dirLangley.jpg" alt="" class="img-fluid">
+              </a>
+            </div>
+            </div>
+          </div>
+        </div>
+      </section>
+    
+    
+  </div>
+
+  <!-- FOOTER -->
+    <script type="text/javascript" src="../includes/footer.js"></script>
+
+    <script>
+      // Lightbox Init
+      $(document).on('click', '[data-toggle="lightbox"]', function (event) {
+        event.preventDefault();
+        $(this).ekkoLightbox();
+      });
+    </script>
+  </body>
+</html>
